@@ -1,5 +1,16 @@
-"""Calculator that do simple math stuff 
-also have a history with date and time"""
+"""
+Version Controll : 
+V1.0
+
+Calculator that do simple math stuff 
+also have a history with date and time
+
+V2.0 :
+
+Now user can write a whole expression
+The inputed expression will be Fixed and cleaned (put space between numbers and ops , removes more than 1 spaces , remove more than 1 ops (** will change to * and so others))
+The expression will be devided into simpler expresions and will get the resualt
+History was reworked and it works with any expression user enters """
 import datetime
 import re
 global temphis
